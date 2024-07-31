@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#result-area {
+    margin: 50px auto;
+    box-shadow: 10px 10px 30px #ccc;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+#fraseDiv {
+    box-shadow: 10px 10px 30px #ccc;
+    margin: 40px auto;
+    margin-bottom: 0px;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+#fraseDiv h2{
+    font-size: 42px;
+    font-family: "regular";
+    font-weight: 600;
+    text-align: center;
+}
+
+span {
+    font-size: 25px;
+    font-family: "regular";
+}
+
+.result-title {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-family: "regular";
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    background-color: #4437fa;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 30px #ccc;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: #4437fa;
+    background-color: #fff;
+}
